@@ -2,7 +2,6 @@
 
 session_start();
 ob_start();
-date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 /*
  * ---------------------------------------------------------
@@ -15,7 +14,8 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
  * 
  */
 
-$config['base_url'] = "http://localhost/ismart.com/PHP-Website-Do-An/admin";
+$config['base_url'] = "http://localhost/ismart.com/";
+
 
 $config['default_module'] = 'home';
 $config['default_controller'] = 'index';
