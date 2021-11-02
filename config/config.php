@@ -14,7 +14,7 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "http://localhost/ismart.com/";
+$config['base_url'] = "http://localhost/ismart.com/PHP-Website-Do-An/";
 
 
 $config['default_module'] = 'home';
