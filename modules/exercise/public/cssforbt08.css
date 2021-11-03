@@ -1,0 +1,32 @@
+.title{
+    color: cornflowerblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+.second-left{
+    color: #ff0a07 ;
+    font-weight: bold;
+    text-align: right;
+}
+.second-right{
+    color: #ff0a07 ;
+}
+.third-four-left{
+    color: blue;
+    text-align: right;
+}
+
+#box{
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    box-shadow: 5px 5px 5px black;
+}
+#submit{
+    text-align: center;
+    background-color:#EEE8AA;
+    width: 60%;
+}
+#ab{
+   padding-left: 570px;
+}

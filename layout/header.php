@@ -38,6 +38,12 @@
                                     <li>
                                         <a href="about.html" title="">Giới thiệu</a>
                                     </li>
+                                    <li>
+                                        <a href="exercise.html" title="">Bài tập</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html" title="">Thông tin cá nhân</a>
+                                    </li>
                                     <?php
                                     if (isset($_SESSION['is_login']) && $_SESSION['is_login'] = true) {
                                         ?>
