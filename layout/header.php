@@ -36,13 +36,13 @@
                                         <a href="post.html" title="">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="about.html" title="">Giới thiệu</a>
+                                        <a href="about.html" title="">Tin Tức</a>
                                     </li>
                                     <li>
                                         <a href="exercise.html" title="">Bài tập</a>
                                     </li>
                                     <li>
-                                        <a href="about.html" title="">Thông tin cá nhân</a>
+                                        <a href="info.html" title="">Thông tin cá nhân</a>
                                     </li>
                                     <?php
                                     if (isset($_SESSION['is_login']) && $_SESSION['is_login'] = true) {

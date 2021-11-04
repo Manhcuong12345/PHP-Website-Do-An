@@ -8,6 +8,7 @@ RewriteCond %{QUERY_STRING} (.*)
 RewriteRule "home.html" "index.php"
 RewriteRule "post.html" ?mod=posts&action=index
 RewriteRule "exercise.html" ?mod=exercise&action=index
+RewriteRule "info.html" ?mod=info&action=detail&id=23
 RewriteRule "about.html" ?mod=pages&action=detail&id=23
 RewriteRule "login.html" ?mod=users&action=login
 RewriteRule "logout.html" ?mod=users&action=logout
